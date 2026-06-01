@@ -1,0 +1,51 @@
+{
+  "name": "front-end",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "prepare": "husky",
+    "spell": "cspell \"**\"",
+    "format": "npx prettier . --write",
+    "generate:assets": "node scripts/generate-placeholders.mjs"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.4.0",
+    "@radix-ui/react-label": "^2.1.8",
+    "@radix-ui/react-slot": "^1.2.4",
+    "@radix-ui/react-tabs": "^1.1.13",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "embla-carousel-react": "^8.6.0",
+    "framer-motion": "^12.40.0",
+    "lucide-react": "^1.17.0",
+    "next": "16.1.6",
+    "next-themes": "^0.4.6",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-hook-form": "^7.77.0",
+    "tailwind-merge": "^3.6.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@cspell/dict-fa-ir": "^4.0.5",
+    "@fullstacksjs/eslint-config": "^13.14.0",
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "cspell": "^9.6.4",
+    "eslint": "^9.39.2",
+    "eslint-config-next": "16.1.6",
+    "husky": "^9.1.7",
+    "postcss": "^8.5.6",
+    "prettier": "^3.8.1",
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "sharp": "^0.34.5",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5"
+  }
+}
