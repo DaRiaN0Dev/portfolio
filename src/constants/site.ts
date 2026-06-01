@@ -1,6 +1,6 @@
 export const SITE_CONFIG = {
   name: "Mohammad Ramezani",
-  title: "Junior Frontend Engineer",
+  title: "Frontend Engineer",
   description:
     "Premium frontend engineering portfolio — building elegant, performant web experiences with React, Next.js, and modern design systems.",
   url: "https://darian0dev.ir",

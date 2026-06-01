@@ -2,7 +2,7 @@ import type { Profile } from "@/types";
 
 export const profile: Profile = {
   name: "Mohammad Ramezani",
-  title: "Junior Frontend Engineer",
+  title: "Frontend Engineer",
   bio: "I craft premium digital experiences at the intersection of engineering precision and refined design. Specializing in React ecosystems, design systems, and performance-critical interfaces.",
   shortBio:
     "Building elegant, scalable frontends for SaaS products and high-growth teams.",
