@@ -1,6 +1,6 @@
-export type ProjectCategory = "personal" | "client" | "organizational";
+export type ProjectCategory = "client" | "organizational" | "personal";
 
-export type ProjectStatus = "live" | "in-progress" | "archived";
+export type ProjectStatus = "archived" | "in-progress" | "live";
 
 export interface SocialLink {
   name: string;
