@@ -86,7 +86,7 @@ export const projects: Project[] = [
     description:
       "Community platform for dev events, speakers, and sponsorship tools.",
     image: "/projects/project-5.png",
-    technologies: ["Next.js", "Sanity", "Vercel", "Framer Motion"],
+    technologies: ["Next.js", "Typescript", "TailwindCSS", "StoryBook"],
     links: [{ label: "GitHub", href: "https://github.com/Qbify-company" }],
     status: "archived",
     category: "organizational",
@@ -97,7 +97,7 @@ export const projects: Project[] = [
     description:
       "Non-profit learning portal connecting mentors and students via curricula.",
     image: "/projects/project-6.png",
-    technologies: ["Next.js", "Supabase", "Tailwind", "MDX"],
+    technologies: ["React.js", "Typescript", "TailwindCSS", "Vite"],
     links: [{ label: "Live", href: "https://hortonapp.com" }],
     status: "live",
     category: "organizational",
