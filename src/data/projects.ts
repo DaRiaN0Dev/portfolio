@@ -102,4 +102,15 @@ export const projects: Project[] = [
     status: "live",
     category: "organizational",
   },
+  {
+    id: "p7",
+    title: "Boardland",
+    description:
+      "Personal project for board game café management with role-based dashboards.",
+    image: "/projects/project-7.png",
+    technologies: ["Next.js", "TypeScript", "TailwindCSS", "Zustand"],
+    links: [{ label: "GitHub", href: "https://github.com/Gray-Hood/Frontend" }],
+    status: "in-progress",
+    category: "client",
+  },
 ];
