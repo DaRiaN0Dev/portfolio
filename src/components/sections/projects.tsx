@@ -69,7 +69,7 @@ function ProjectCard({ project }: { project: (typeof projects)[0] }) {
         <div className="mt-4 flex gap-3">
           {project.links.map((link) => (
             <a
-              key={link.label}
+              key={`${link.label}-${link.href}`}
               href={link.href}
               className={cn(
                 "inline-flex items-center gap-1.5 text-sm font-medium text-primary transition-colors hover:text-primary/80",
@@ -121,7 +121,6 @@ export function ProjectsSection() {
               variants={staggerContainer(0.08)}
               {...revealOnScroll}
               initial="hidden"
-              key={tab.value}
             >
               {filteredProjects.map((project) => (
                 <ProjectCard key={project.id} project={project} />

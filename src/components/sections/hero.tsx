@@ -22,6 +22,7 @@ export function HeroSection() {
           sizes="100vw"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
+        <div className="absolute inset-0 bg-black/20 dark:bg-black/0" />
       </div>
 
       <div className="container relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">

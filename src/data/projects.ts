@@ -87,7 +87,10 @@ export const projects: Project[] = [
       "Community platform for dev events, speakers, and sponsorship tools.",
     image: "/projects/project-5.png",
     technologies: ["Next.js", "Typescript", "TailwindCSS", "StoryBook"],
-    links: [{ label: "GitHub", href: "https://github.com/Qbify-company" }],
+    links: [
+      { label: "Live", href: "https://qbify.ir" },
+      { label: "GitHub", href: "https://github.com/Qbify-company" },
+    ],
     status: "archived",
     category: "organizational",
   },
@@ -109,8 +112,11 @@ export const projects: Project[] = [
       "Personal project for board game café management with role-based dashboards.",
     image: "/projects/project-7.png",
     technologies: ["Next.js", "TypeScript", "TailwindCSS", "Zustand"],
-    links: [{ label: "GitHub", href: "https://github.com/Gray-Hood/Frontend" }],
-    status: "in-progress",
+    links: [
+      { label: "Live", href: "https://boardlandcafe.ir" },
+      { label: "GitHub", href: "https://github.com/Gray-Hood/Frontend" },
+    ],
+    status: "live",
     category: "client",
   },
 ];

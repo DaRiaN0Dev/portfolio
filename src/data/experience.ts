@@ -4,8 +4,8 @@ export const companyExperience: CompanyExperience[] = [
   {
     id: "trueflow",
     company: "TrueFlow",
-    role: "Founder And Frontend Engineer",
-    duration: "Nov 2025 - Present",
+    role: "Co-Founder And Frontend Engineer",
+    duration: "Nov 2025 - July 2026",
     location: "Qazvin (Remote)",
     achievements: [
       "Developed the front-end of a Human Resource Management System (HRMS) using Next.js, TypeScript, and Tailwind CSS.",
@@ -17,8 +17,8 @@ export const companyExperience: CompanyExperience[] = [
   {
     id: "toppira",
     company: "Toppira",
-    role: "Founder And Frontend Engineer",
-    duration: "Sep 2025 - Present",
+    role: "Co-Founder And Frontend Engineer",
+    duration: "Sep 2025 - July 2026",
     location: "Qazvin (Remote)",
     achievements: [
       "Developed the front-end of an open-source AI-powered productivity platform using Next.js, React.js, TypeScript, and TailwindCSS.",
@@ -64,10 +64,20 @@ export const companyExperience: CompanyExperience[] = [
 export const freelanceExperience: FreelanceExperience[] = [
   {
     id: "f1",
+    client: "BoardLand Cafe",
+    project: "Cafe & Restaurant Management System",
+    duration: "2026",
+    description:
+      "Modern digital platform for board game cafés with food ordering, menu management, board game discovery and requests, customer dashboards, order tracking, admin panel for products, categories, orders, games staff, announcements and fully responsive dark-theme UI, built using React.js, TypeScript, and Tailwind CSS.",
+    technologies: ["Next.js", "TypeScript", "Zustand", "Tailwind"],
+  },
+  {
+    id: "f2",
     client: "Iran MTA Game Server",
     project: "Gaming Dashboard Pannel",
     duration: "2025",
-    description: "Modern gaming control panel with player management, progression tracking, licenses, businesses, properties, battle pass systems, real-time data integration, and scalable dashboard architecture built using React.js, TypeScript, and Tailwind CSS.",
+    description:
+      "Modern gaming control panel with player management, progression tracking, licenses, businesses, properties, battle pass systems, real-time data integration, and scalable dashboard architecture built using React.js, TypeScript, and Tailwind CSS.",
     technologies: ["React.js", "TypeScript", "Vite", "Tailwind"],
   },
 ];
